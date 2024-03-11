@@ -1,0 +1,44 @@
+name: news_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons:
+  http:
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  url_launcher:
+  provider:
+  shared_preferences:
+  flutter_launcher_icons: ^0.13.1
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:
+
+
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app_icon.png"
+
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/images/
